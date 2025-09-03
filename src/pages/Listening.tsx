@@ -89,6 +89,111 @@ const listeningExercises: ListeningExercise[] = [
         explanation: 'Người thư viện nói "the library closes at 8 PM on weekdays and 5 PM on weekends".'
       }
     ]
+  },
+  {
+    id: 3,
+    title: 'Shopping for Clothes',
+    titleVietnamese: 'Mua sắm quần áo',
+    level: 'beginner',
+    transcript: `Good morning! Welcome to our clothing store. What can I help you find today? Hi, I'm looking for a birthday gift for my sister. She likes colorful dresses. Great choice! We have many beautiful dresses on sale this week. What size does she wear? She wears size medium. And what colors does she prefer? She loves blue and green. Perfect! Let me show you some options. This blue dress is very popular, and it's 30% off today. The original price is $80, so it's now $56. We also have this green dress for $45. Both dresses are made of cotton and are very comfortable. Would you like to see them?`,
+    transcriptVietnamese: 'Chào buổi sáng! Chào mừng đến cửa hàng quần áo của chúng tôi. Tôi có thể giúp bạn tìm gì hôm nay? Xin chào, tôi đang tìm quà sinh nhật cho chị gái tôi. Chị ấy thích váy nhiều màu. Lựa chọn tuyệt vời! Chúng tôi có nhiều chiếc váy đẹp đang giảm giá tuần này. Chị ấy mặc size nào? Chị ấy mặc size trung bình. Và chị ấy thích màu gì? Chị ấy thích màu xanh dương và xanh lá. Hoàn hảo! Để tôi cho bạn xem một số lựa chọn. Chiếc váy xanh dương này rất được ưa chuộng, và hôm nay giảm 30%. Giá gốc là $80, nên bây giờ là $56. Chúng tôi cũng có chiếc váy xanh lá này với giá $45. Cả hai chiếc váy đều được làm từ cotton và rất thoải mái. Bạn có muốn xem không?',
+    audioText: `Good morning! Welcome to our clothing store. What can I help you find today? Hi, I'm looking for a birthday gift for my sister. She likes colorful dresses. Great choice! We have many beautiful dresses on sale this week. What size does she wear? She wears size medium. And what colors does she prefer? She loves blue and green. Perfect! Let me show you some options. This blue dress is very popular, and it's thirty percent off today. The original price is eighty dollars, so it's now fifty six dollars. We also have this green dress for forty five dollars. Both dresses are made of cotton and are very comfortable. Would you like to see them?`,
+    questions: [
+      {
+        id: 1,
+        question: 'What is the customer looking for?',
+        questionVietnamese: 'Khách hàng đang tìm gì?',
+        options: ['A gift for her mother', 'A birthday gift for her sister', 'Clothes for herself', 'A wedding dress'],
+        correctAnswer: 1,
+        explanation: 'Khách hàng nói "I\'m looking for a birthday gift for my sister".'
+      },
+      {
+        id: 2,
+        question: 'What size does her sister wear?',
+        questionVietnamese: 'Chị gái cô ấy mặc size nào?',
+        options: ['Small', 'Medium', 'Large', 'Extra large'],
+        correctAnswer: 1,
+        explanation: 'Khách hàng nói "She wears size medium".'
+      },
+      {
+        id: 3,
+        question: 'What is the sale price of the blue dress?',
+        questionVietnamese: 'Giá khuyến mãi của chiếc váy xanh dương là bao nhiêu?',
+        options: ['$45', '$56', '$70', '$80'],
+        correctAnswer: 1,
+        explanation: 'Nhân viên nói "The original price is $80, so it\'s now $56" (giảm 30%).'
+      }
+    ]
+  },
+  {
+    id: 4,
+    title: 'Weather Forecast',
+    titleVietnamese: 'Dự báo thời tiết',
+    level: 'intermediate',
+    transcript: `Good evening, and welcome to your local weather forecast. This is meteorologist Jennifer Smith with your weekend weather update. Tomorrow, Saturday, will start cloudy in the morning with temperatures around 18 degrees Celsius. By afternoon, the clouds will clear and we'll see plenty of sunshine with highs reaching 25 degrees. It's a perfect day for outdoor activities! Sunday will be quite different. We're expecting heavy rain throughout the day, starting around 6 AM and continuing until evening. Temperatures will drop to between 15 and 20 degrees. I recommend bringing an umbrella if you're planning to go out. Looking ahead to next week, Monday and Tuesday will be partly sunny with mild temperatures around 22 degrees. Wednesday might bring some light showers, but Thursday and Friday look beautiful with clear skies and warm weather up to 27 degrees. That's your weekend forecast. Have a great evening!`,
+    transcriptVietnamese: 'Chào buổi tối, và chào mừng đến với dự báo thời tiết địa phương của bạn. Tôi là chuyên gia thời tiết Jennifer Smith với bản cập nhật thời tiết cuối tuần. Ngày mai, thứ Bảy, sẽ bắt đầu có mây vào buổi sáng với nhiệt độ khoảng 18 độ C. Đến chiều, mây sẽ tan và chúng ta sẽ thấy nhiều nắng với nhiệt độ cao nhất đạt 25 độ. Đó là một ngày hoàn hảo cho các hoạt động ngoài trời! Chủ nhật sẽ khá khác. Chúng tôi dự báo mưa lớn cả ngày, bắt đầu khoảng 6 giờ sáng và kéo dài đến tối. Nhiệt độ sẽ giảm xuống khoảng 15 đến 20 độ. Tôi khuyên bạn nên mang ô nếu dự định ra ngoài. Nhìn về tuần tới, thứ Hai và thứ Ba sẽ có nắng một phần với nhiệt độ ôn hòa khoảng 22 độ. Thứ Tư có thể có mưa phùn nhẹ, nhưng thứ Năm và thứ Sáu trông đẹp với bầu trời trong và thời tiết ấm lên đến 27 độ. Đó là dự báo cuối tuần của bạn. Chúc bạn buổi tối tốt lành!',
+    audioText: `Good evening, and welcome to your local weather forecast. This is meteorologist Jennifer Smith with your weekend weather update. Tomorrow, Saturday, will start cloudy in the morning with temperatures around eighteen degrees Celsius. By afternoon, the clouds will clear and we'll see plenty of sunshine with highs reaching twenty five degrees. It's a perfect day for outdoor activities! Sunday will be quite different. We're expecting heavy rain throughout the day, starting around six AM and continuing until evening. Temperatures will drop to between fifteen and twenty degrees. I recommend bringing an umbrella if you're planning to go out. Looking ahead to next week, Monday and Tuesday will be partly sunny with mild temperatures around twenty two degrees. Wednesday might bring some light showers, but Thursday and Friday look beautiful with clear skies and warm weather up to twenty seven degrees. That's your weekend forecast. Have a great evening!`,
+    questions: [
+      {
+        id: 1,
+        question: 'What will the weather be like on Saturday afternoon?',
+        questionVietnamese: 'Thời tiết chiều thứ Bảy sẽ như thế nào?',
+        options: ['Cloudy and cold', 'Sunny with high temperature', 'Rainy and windy', 'Foggy and cool'],
+        correctAnswer: 1,
+        explanation: 'Dự báo nói "By afternoon, the clouds will clear and we\'ll see plenty of sunshine with highs reaching 25 degrees".'
+      },
+      {
+        id: 2,
+        question: 'When will it start raining on Sunday?',
+        questionVietnamese: 'Khi nào sẽ bắt đầu mưa vào Chủ nhật?',
+        options: ['3 AM', '6 AM', '9 AM', '12 PM'],
+        correctAnswer: 1,
+        explanation: 'Dự báo nói "We\'re expecting heavy rain throughout the day, starting around 6 AM".'
+      },
+      {
+        id: 3,
+        question: 'What will the temperature be like next Wednesday?',
+        questionVietnamese: 'Nhiệt độ thứ Tư tuần sau sẽ như thế nào?',
+        options: ['27 degrees with clear skies', 'Light showers', '22 degrees and mild', 'Heavy rain and cold'],
+        correctAnswer: 1,
+        explanation: 'Dự báo nói "Wednesday might bring some light showers" - có thể có mưa phùn nhẹ.'
+      }
+    ]
+  },
+  {
+    id: 5,
+    title: 'Job Interview',
+    titleVietnamese: 'Phỏng vấn xin việc',
+    level: 'intermediate',
+    transcript: `Good morning, Ms. Johnson. Please have a seat. Thank you for coming in today. Thank you for having me, Mr. Davis. I'm excited about this opportunity. Great! Let's start with some basic questions. Can you tell me a little about yourself and your work experience? Of course. I graduated from State University with a degree in Business Administration three years ago. Since then, I've been working at Green Marketing Company as a junior marketing coordinator. I've been responsible for social media campaigns, customer research, and helping with event planning. That sounds impressive. What made you interested in applying for this position with our company? Well, I've always admired your company's innovative approach to digital marketing. I believe my skills in social media and customer analysis would be valuable here. Also, I'm looking for new challenges and opportunities to grow professionally. I see you have experience with social media. Can you give me an example of a successful campaign you worked on? Sure! Last year, I developed a campaign for a new product launch that increased our social media engagement by 40% and generated 200 new leads within one month. We used creative videos and interactive posts to engage our target audience. Excellent! Do you have any questions for me about the position or our company?`,
+    transcriptVietnamese: 'Chào buổi sáng, cô Johnson. Mời cô ngồi. Cảm ơn cô đã đến hôm nay. Cảm ơn anh đã mời tôi, anh Davis. Tôi rất hào hứng về cơ hội này. Tuyệt! Hãy bắt đầu với một số câu hỏi cơ bản. Cô có thể kể tôi nghe một chút về bản thân và kinh nghiệm làm việc của cô không? Tất nhiên. Tôi đã tốt nghiệp Đại học Bang với bằng Quản trị Kinh doanh ba năm trước. Kể từ đó, tôi đã làm việc tại Công ty Marketing Green với tư cách là điều phối viên marketing junior. Tôi đã chịu trách nhiệm cho các chiến dịch truyền thông xã hội, nghiên cứu khách hàng và giúp đỡ lập kế hoạch sự kiện. Nghe có vẻ ấn tượng. Điều gì khiến cô quan tâm đến việc ứng tuyển vị trí này tại công ty chúng tôi? Tôi luôn ngưỡng mộ cách tiếp cận sáng tạo của công ty anh trong marketing kỹ thuật số. Tôi tin rằng kỹ năng của tôi về truyền thông xã hội và phân tích khách hàng sẽ có giá trị ở đây. Ngoài ra, tôi đang tìm kiếm những thử thách mới và cơ hội phát triển chuyên nghiệp. Tôi thấy cô có kinh nghiệm về truyền thông xã hội. Cô có thể cho tôi một ví dụ về chiến dịch thành công mà cô đã thực hiện không? Chắc chắn! Năm ngoái, tôi đã phát triển một chiến dịch cho việc ra mắt sản phẩm mới đã tăng tương tác truyền thông xã hội của chúng tôi lên 40% và tạo ra 200 khách hàng tiềm năng mới trong vòng một tháng. Chúng tôi đã sử dụng video sáng tạo và bài viết tương tác để thu hút đối tượng mục tiêu. Xuất sắc! Cô có câu hỏi nào cho tôi về vị trí này hoặc công ty chúng tôi không?',
+    audioText: `Good morning, Ms. Johnson. Please have a seat. Thank you for coming in today. Thank you for having me, Mr. Davis. I'm excited about this opportunity. Great! Let's start with some basic questions. Can you tell me a little about yourself and your work experience? Of course. I graduated from State University with a degree in Business Administration three years ago. Since then, I've been working at Green Marketing Company as a junior marketing coordinator. I've been responsible for social media campaigns, customer research, and helping with event planning. That sounds impressive. What made you interested in applying for this position with our company? Well, I've always admired your company's innovative approach to digital marketing. I believe my skills in social media and customer analysis would be valuable here. Also, I'm looking for new challenges and opportunities to grow professionally. I see you have experience with social media. Can you give me an example of a successful campaign you worked on? Sure! Last year, I developed a campaign for a new product launch that increased our social media engagement by forty percent and generated two hundred new leads within one month. We used creative videos and interactive posts to engage our target audience. Excellent! Do you have any questions for me about the position or our company?`,
+    questions: [
+      {
+        id: 1,
+        question: 'How long has Ms. Johnson been working at Green Marketing Company?',
+        questionVietnamese: 'Cô Johnson đã làm việc tại Công ty Green Marketing bao lâu?',
+        options: ['2 years', '3 years', 'Since graduating 3 years ago', '4 years'],
+        correctAnswer: 2,
+        explanation: 'Cô Johnson nói "I graduated from State University... three years ago. Since then, I\'ve been working at Green Marketing Company".'
+      },
+      {
+        id: 2,
+        question: 'What was the result of her successful social media campaign?',
+        questionVietnamese: 'Kết quả của chiến dịch truyền thông xã hội thành công của cô ấy là gì?',
+        options: ['30% increase and 150 leads', '40% increase and 200 leads', '50% increase and 250 leads', '35% increase and 180 leads'],
+        correctAnswer: 1,
+        explanation: 'Cô Johnson nói chiến dịch "increased our social media engagement by 40% and generated 200 new leads".'
+      },
+      {
+        id: 3,
+        question: 'What degree did Ms. Johnson graduate with?',
+        questionVietnamese: 'Cô Johnson tốt nghiệp bằng gì?',
+        options: ['Marketing', 'Business Administration', 'Communications', 'Computer Science'],
+        correctAnswer: 1,
+        explanation: 'Cô Johnson nói "I graduated from State University with a degree in Business Administration".'
+      }
+    ]
   }
 ]
 

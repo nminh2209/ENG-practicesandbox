@@ -139,6 +139,190 @@ Tomorrow I plan to go to the beach with my family. We will build sandcastles, sw
       { word: 'energetic', meaning: 'full of energy and enthusiasm', vietnamese: 'tràn đầy năng lượng' },
       { word: 'barbecue', meaning: 'outdoor cooking, usually grilling meat', vietnamese: 'tiệc nướng ngoài trời' }
     ]
+  },
+  {
+    id: 3,
+    title: 'Healthy Living',
+    titleVietnamese: 'Sống khỏe mạnh',
+    level: 'intermediate',
+    passage: `Living a healthy lifestyle is important for everyone. There are many simple ways to improve your health and feel better every day.
+
+First, eating nutritious food is essential. You should eat plenty of fruits and vegetables, which provide vitamins and minerals your body needs. Try to limit processed foods, sugary drinks, and fast food. Instead, choose whole grains, lean proteins like fish and chicken, and drink lots of water. A balanced diet gives you energy and helps prevent diseases.
+
+Second, regular exercise is crucial for maintaining good health. You don't need to spend hours at the gym every day. Even 30 minutes of walking, swimming, or cycling can make a big difference. Exercise strengthens your muscles, improves your heart health, and helps you maintain a healthy weight. It also reduces stress and improves your mood.
+
+Third, getting enough sleep is vital. Most adults need 7-8 hours of sleep each night. Good sleep helps your body repair itself and gives you energy for the next day. Poor sleep can lead to problems with concentration, memory, and overall health.
+
+Finally, managing stress is important for both physical and mental health. You can reduce stress through meditation, deep breathing exercises, or hobbies you enjoy. Spending time with family and friends also helps reduce stress levels.
+
+Remember, small changes in your daily habits can lead to big improvements in your health over time.`,
+    questions: [
+      {
+        id: 1,
+        question: 'How many hours of sleep do most adults need?',
+        questionVietnamese: 'Hầu hết người lớn cần ngủ bao nhiêu tiếng?',
+        type: 'multiple-choice',
+        options: ['5-6 hours', '6-7 hours', '7-8 hours', '8-9 hours'],
+        correctAnswer: 2,
+        explanation: 'Đoạn văn nói "Most adults need 7-8 hours of sleep each night."'
+      },
+      {
+        id: 2,
+        question: 'Exercise should be done for hours every day.',
+        questionVietnamese: 'Tập thể dục nên được thực hiện hàng giờ mỗi ngày.',
+        type: 'true-false',
+        correctAnswer: false,
+        explanation: 'Đoạn văn nói "You don\'t need to spend hours at the gym every day. Even 30 minutes... can make a big difference."'
+      },
+      {
+        id: 3,
+        question: 'Which foods should you limit in a healthy diet?',
+        questionVietnamese: 'Bạn nên hạn chế loại thực phẩm nào trong chế độ ăn lành mạnh?',
+        type: 'multiple-choice',
+        options: ['Fruits and vegetables', 'Whole grains', 'Processed foods and sugary drinks', 'Fish and chicken'],
+        correctAnswer: 2,
+        explanation: 'Đoạn văn nói "Try to limit processed foods, sugary drinks, and fast food."'
+      },
+      {
+        id: 4,
+        question: 'Spending time with family and friends helps reduce stress.',
+        questionVietnamese: 'Dành thời gian với gia đình và bạn bè giúp giảm stress.',
+        type: 'true-false',
+        correctAnswer: true,
+        explanation: 'Đoạn văn nói "Spending time with family and friends also helps reduce stress levels."'
+      }
+    ],
+    vocabulary: [
+      { word: 'nutritious', meaning: 'containing nutrients that are good for health', vietnamese: 'bổ dưỡng' },
+      { word: 'processed', meaning: 'treated or prepared by a special method', vietnamese: 'chế biến sẵn' },
+      { word: 'crucial', meaning: 'extremely important', vietnamese: 'rất quan trọng' },
+      { word: 'vital', meaning: 'absolutely necessary', vietnamese: 'thiết yếu' },
+      { word: 'meditation', meaning: 'practice of focusing the mind for relaxation', vietnamese: 'thiền định' }
+    ]
+  },
+  {
+    id: 4,
+    title: 'Technology in Education',
+    titleVietnamese: 'Công nghệ trong giáo dục',
+    level: 'intermediate',
+    passage: `Technology has revolutionized education in the 21st century. From traditional blackboards to interactive smart boards, from textbooks to tablets, the way students learn has changed dramatically.
+
+One of the biggest advantages of technology in education is accessibility. Students can now access educational materials anytime, anywhere. Online courses, educational videos, and digital libraries have made learning more flexible. Students who live in remote areas or have physical disabilities can now participate in quality education programs that were previously unavailable to them.
+
+Interactive learning tools have made education more engaging and effective. Educational software, virtual reality experiences, and gamification techniques help students understand complex concepts more easily. For example, students can take virtual field trips to ancient Rome or explore the human body in 3D, making abstract concepts more concrete and memorable.
+
+Technology also enables personalized learning. Adaptive learning systems can adjust the difficulty level and pace according to each student's abilities and learning style. This means that advanced students can move ahead quickly, while others can take more time to master the basics.
+
+However, technology in education also presents some challenges. Not all students have equal access to devices and internet connectivity, creating a digital divide. Additionally, excessive screen time can affect students' health and social skills. Teachers need proper training to effectively integrate technology into their lessons.
+
+Despite these challenges, the benefits of educational technology far outweigh the drawbacks. As technology continues to evolve, it will undoubtedly play an even more significant role in shaping the future of education.`,
+    questions: [
+      {
+        id: 1,
+        question: 'What is one major advantage of technology in education mentioned?',
+        questionVietnamese: 'Một lợi thế chính của công nghệ trong giáo dục được đề cập là gì?',
+        type: 'multiple-choice',
+        options: ['Lower costs', 'Accessibility', 'Less homework', 'Shorter school days'],
+        correctAnswer: 1,
+        explanation: 'Đoạn văn nói "One of the biggest advantages of technology in education is accessibility."'
+      },
+      {
+        id: 2,
+        question: 'Virtual reality can help make abstract concepts more concrete.',
+        questionVietnamese: 'Thực tế ảo có thể giúp làm cho các khái niệm trừu tượng trở nên cụ thể hơn.',
+        type: 'true-false',
+        correctAnswer: true,
+        explanation: 'Đoạn văn nói students can "explore the human body in 3D, making abstract concepts more concrete and memorable."'
+      },
+      {
+        id: 3,
+        question: 'What challenge does the digital divide refer to?',
+        questionVietnamese: 'Khoảng cách kỹ thuật số đề cập đến thách thức gì?',
+        type: 'multiple-choice',
+        options: ['Too much technology', 'Unequal access to devices and internet', 'Teacher training problems', 'Health issues from screens'],
+        correctAnswer: 1,
+        explanation: 'Đoạn văn nói "Not all students have equal access to devices and internet connectivity, creating a digital divide."'
+      },
+      {
+        id: 4,
+        question: 'The author believes technology\'s benefits outweigh its drawbacks.',
+        questionVietnamese: 'Tác giả tin rằng lợi ích của công nghệ vượt trội hơn những nhược điểm của nó.',
+        type: 'true-false',
+        correctAnswer: true,
+        explanation: 'Đoạn văn kết luận "the benefits of educational technology far outweigh the drawbacks."'
+      }
+    ],
+    vocabulary: [
+      { word: 'revolutionized', meaning: 'completely changed', vietnamese: 'cách mạng hóa' },
+      { word: 'accessibility', meaning: 'the quality of being easily reached or used', vietnamese: 'khả năng tiếp cận' },
+      { word: 'gamification', meaning: 'applying game elements to non-game contexts', vietnamese: 'trò chơi hóa' },
+      { word: 'adaptive', meaning: 'able to adjust to new conditions', vietnamese: 'thích ứng' },
+      { word: 'integrate', meaning: 'combine or bring together', vietnamese: 'tích hợp' }
+    ]
+  },
+  {
+    id: 5,
+    title: 'Environmental Protection',
+    titleVietnamese: 'Bảo vệ môi trường',
+    level: 'intermediate',
+    passage: `Environmental protection has become one of the most critical issues of our time. Climate change, pollution, and biodiversity loss are threatening the future of our planet, making it essential for everyone to take action.
+
+The main causes of environmental problems include industrial activities, transportation, deforestation, and unsustainable consumption patterns. Factories release harmful chemicals into the air and water, while cars and planes burn fossil fuels that contribute to greenhouse gas emissions. Large-scale agriculture and urban development have led to the destruction of natural habitats.
+
+However, there are many ways individuals and communities can help protect the environment. At home, we can reduce energy consumption by using energy-efficient appliances, turning off lights when not needed, and improving insulation. We can also reduce waste by recycling, composting organic materials, and avoiding single-use plastics.
+
+Transportation choices make a significant impact too. Walking, cycling, using public transportation, or carpooling can dramatically reduce our carbon footprint. For longer distances, choosing trains over planes when possible helps reduce emissions.
+
+Supporting sustainable businesses is another effective strategy. Companies that use renewable energy, eco-friendly materials, and sustainable production methods deserve our support. By buying from these businesses, consumers can influence market demand for environmentally responsible practices.
+
+Education and awareness are crucial for environmental protection. Schools, communities, and media should promote environmental education to help people understand the importance of conservation. When people understand how their actions affect the environment, they are more likely to make sustainable choices.
+
+Governments also play a vital role by creating and enforcing environmental regulations, investing in renewable energy, and supporting research into clean technologies. International cooperation is necessary to address global environmental challenges effectively.
+
+Everyone has a responsibility to protect our planet for future generations. Small actions, when multiplied by millions of people, can create significant positive change.`,
+    questions: [
+      {
+        id: 1,
+        question: 'What are the main causes of environmental problems mentioned?',
+        questionVietnamese: 'Nguyên nhân chính của các vấn đề môi trường được đề cập là gì?',
+        type: 'multiple-choice',
+        options: ['Only industrial activities', 'Industrial activities, transportation, deforestation, and consumption', 'Only transportation and cars', 'Only deforestation'],
+        correctAnswer: 1,
+        explanation: 'Đoạn văn liệt kê "industrial activities, transportation, deforestation, and unsustainable consumption patterns."'
+      },
+      {
+        id: 2,
+        question: 'Using energy-efficient appliances can help reduce environmental impact.',
+        questionVietnamese: 'Sử dụng thiết bị tiết kiệm năng lượng có thể giúp giảm tác động môi trường.',
+        type: 'true-false',
+        correctAnswer: true,
+        explanation: 'Đoạn văn nói "we can reduce energy consumption by using energy-efficient appliances."'
+      },
+      {
+        id: 3,
+        question: 'Which transportation method helps reduce carbon footprint the most?',
+        questionVietnamese: 'Phương tiện giao thông nào giúp giảm lượng khí thải carbon nhiều nhất?',
+        type: 'multiple-choice',
+        options: ['Flying planes', 'Driving alone', 'Walking, cycling, and public transport', 'Using motorcycles'],
+        correctAnswer: 2,
+        explanation: 'Đoạn văn nói "Walking, cycling, using public transportation, or carpooling can dramatically reduce our carbon footprint."'
+      },
+      {
+        id: 4,
+        question: 'Environmental protection requires international cooperation.',
+        questionVietnamese: 'Bảo vệ môi trường đòi hỏi sự hợp tác quốc tế.',
+        type: 'true-false',
+        correctAnswer: true,
+        explanation: 'Đoạn văn nói "International cooperation is necessary to address global environmental challenges effectively."'
+      }
+    ],
+    vocabulary: [
+      { word: 'biodiversity', meaning: 'variety of plant and animal life', vietnamese: 'đa dạng sinh học' },
+      { word: 'deforestation', meaning: 'clearing of forests', vietnamese: 'phá rừng' },
+      { word: 'emissions', meaning: 'discharge of gas, heat, light, etc.', vietnamese: 'khí thải' },
+      { word: 'sustainable', meaning: 'able to be maintained without harming the environment', vietnamese: 'bền vững' },
+      { word: 'conservation', meaning: 'protection and preservation of the environment', vietnamese: 'bảo tồn' }
+    ]
   }
 ]
 

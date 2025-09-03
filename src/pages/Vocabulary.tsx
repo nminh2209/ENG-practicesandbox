@@ -13,6 +13,7 @@ interface VocabWord {
 }
 
 const vocabularyData: VocabWord[] = [
+  // Academic & Education
   {
     id: 1,
     english: 'Achievement',
@@ -25,6 +26,38 @@ const vocabularyData: VocabWord[] = [
   },
   {
     id: 2,
+    english: 'Knowledge',
+    vietnamese: 'Kiến thức',
+    pronunciation: '/ˈnɒlɪdʒ/',
+    example: 'She has extensive knowledge of computer science.',
+    exampleVietnamese: 'Cô ấy có kiến thức sâu rộng về khoa học máy tính.',
+    level: 'beginner',
+    category: 'Academic'
+  },
+  {
+    id: 3,
+    english: 'Research',
+    vietnamese: 'Nghiên cứu',
+    pronunciation: '/rɪˈsɜːtʃ/',
+    example: 'The research showed interesting results about climate change.',
+    exampleVietnamese: 'Nghiên cứu cho thấy kết quả thú vị về biến đổi khí hậu.',
+    level: 'intermediate',
+    category: 'Academic'
+  },
+  {
+    id: 4,
+    english: 'Analysis',
+    vietnamese: 'Phân tích',
+    pronunciation: '/əˈnæləsɪs/',
+    example: 'His analysis of the data was very thorough.',
+    exampleVietnamese: 'Phân tích dữ liệu của anh ấy rất kỹ lưỡng.',
+    level: 'intermediate',
+    category: 'Academic'
+  },
+
+  // Environment & Nature
+  {
+    id: 5,
     english: 'Environment',
     vietnamese: 'Môi trường',
     pronunciation: '/ɪnˈvaɪrənmənt/',
@@ -32,36 +65,6 @@ const vocabularyData: VocabWord[] = [
     exampleVietnamese: 'Chúng ta cần bảo vệ môi trường khỏi ô nhiễm.',
     level: 'intermediate',
     category: 'Environment'
-  },
-  {
-    id: 3,
-    english: 'Technology',
-    vietnamese: 'Công nghệ',
-    pronunciation: '/tekˈnɒlədʒi/',
-    example: 'Modern technology has changed our daily lives.',
-    exampleVietnamese: 'Công nghệ hiện đại đã thay đổi cuộc sống hàng ngày của chúng ta.',
-    level: 'intermediate',
-    category: 'Technology'
-  },
-  {
-    id: 4,
-    english: 'Opportunity',
-    vietnamese: 'Cơ hội',
-    pronunciation: '/ˌɒpəˈtjuːnəti/',
-    example: 'This job offers many opportunities for career development.',
-    exampleVietnamese: 'Công việc này mang lại nhiều cơ hội phát triển nghề nghiệp.',
-    level: 'intermediate',
-    category: 'Career'
-  },
-  {
-    id: 5,
-    english: 'Communication',
-    vietnamese: 'Giao tiếp',
-    pronunciation: '/kəˌmjuːnɪˈkeɪʃn/',
-    example: 'Good communication skills are essential in business.',
-    exampleVietnamese: 'Kỹ năng giao tiếp tốt là rất cần thiết trong kinh doanh.',
-    level: 'intermediate',
-    category: 'Skills'
   },
   {
     id: 6,
@@ -75,33 +78,35 @@ const vocabularyData: VocabWord[] = [
   },
   {
     id: 7,
-    english: 'Influence',
-    vietnamese: 'Ảnh hưởng',
-    pronunciation: '/ˈɪnfluəns/',
-    example: 'Social media has a strong influence on young people.',
-    exampleVietnamese: 'Mạng xã hội có ảnh hưởng mạnh đến giới trẻ.',
+    english: 'Renewable',
+    vietnamese: 'Có thể tái tạo',
+    pronunciation: '/rɪˈnjuːəbl/',
+    example: 'Solar energy is a renewable source of power.',
+    exampleVietnamese: 'Năng lượng mặt trời là nguồn năng lượng có thể tái tạo.',
     level: 'intermediate',
-    category: 'Society'
+    category: 'Environment'
   },
   {
     id: 8,
-    english: 'Challenge',
-    vietnamese: 'Thử thách',
-    pronunciation: '/ˈtʃælɪndʒ/',
-    example: 'Learning English can be a challenge, but it\'s very rewarding.',
-    exampleVietnamese: 'Học tiếng Anh có thể là một thử thách, nhưng rất bổ ích.',
-    level: 'beginner',
-    category: 'Learning'
+    english: 'Conservation',
+    vietnamese: 'Bảo tồn',
+    pronunciation: '/ˌkɒnsəˈveɪʃn/',
+    example: 'Wildlife conservation is important for our planet.',
+    exampleVietnamese: 'Bảo tồn động vật hoang dã rất quan trọng cho hành tinh chúng ta.',
+    level: 'intermediate',
+    category: 'Environment'
   },
+
+  // Technology & Innovation
   {
     id: 9,
-    english: 'Diversity',
-    vietnamese: 'Đa dạng',
-    pronunciation: '/daɪˈvɜːsəti/',
-    example: 'Cultural diversity makes our society more interesting.',
-    exampleVietnamese: 'Đa dạng văn hóa làm cho xã hội chúng ta thú vị hơn.',
+    english: 'Technology',
+    vietnamese: 'Công nghệ',
+    pronunciation: '/tekˈnɒlədʒi/',
+    example: 'Modern technology has changed our daily lives.',
+    exampleVietnamese: 'Công nghệ hiện đại đã thay đổi cuộc sống hàng ngày của chúng ta.',
     level: 'intermediate',
-    category: 'Society'
+    category: 'Technology'
   },
   {
     id: 10,
@@ -115,6 +120,258 @@ const vocabularyData: VocabWord[] = [
   },
   {
     id: 11,
+    english: 'Digital',
+    vietnamese: 'Kỹ thuật số',
+    pronunciation: '/ˈdɪdʒɪtl/',
+    example: 'The digital age has transformed how we communicate.',
+    exampleVietnamese: 'Kỷ nguyên kỹ thuật số đã thay đổi cách chúng ta giao tiếp.',
+    level: 'beginner',
+    category: 'Technology'
+  },
+  {
+    id: 12,
+    english: 'Artificial Intelligence',
+    vietnamese: 'Trí tuệ nhân tạo',
+    pronunciation: '/ˌɑːtɪˈfɪʃl ɪnˈtelɪdʒəns/',
+    example: 'Artificial intelligence is becoming more common in everyday life.',
+    exampleVietnamese: 'Trí tuệ nhân tạo đang trở nên phổ biến hơn trong cuộc sống hàng ngày.',
+    level: 'intermediate',
+    category: 'Technology'
+  },
+
+  // Career & Business
+  {
+    id: 13,
+    english: 'Opportunity',
+    vietnamese: 'Cơ hội',
+    pronunciation: '/ˌɒpəˈtjuːnəti/',
+    example: 'This job offers many opportunities for career development.',
+    exampleVietnamese: 'Công việc này mang lại nhiều cơ hội phát triển nghề nghiệp.',
+    level: 'intermediate',
+    category: 'Career'
+  },
+  {
+    id: 14,
+    english: 'Professional',
+    vietnamese: 'Chuyên nghiệp',
+    pronunciation: '/prəˈfeʃənl/',
+    example: 'She maintains a professional attitude at work.',
+    exampleVietnamese: 'Cô ấy duy trì thái độ chuyên nghiệp trong công việc.',
+    level: 'intermediate',
+    category: 'Career'
+  },
+  {
+    id: 15,
+    english: 'Management',
+    vietnamese: 'Quản lý',
+    pronunciation: '/ˈmænɪdʒmənt/',
+    example: 'Good management is essential for business success.',
+    exampleVietnamese: 'Quản lý tốt là điều cần thiết cho thành công trong kinh doanh.',
+    level: 'intermediate',
+    category: 'Career'
+  },
+  {
+    id: 16,
+    english: 'Leadership',
+    vietnamese: 'Lãnh đạo',
+    pronunciation: '/ˈliːdəʃɪp/',
+    example: 'Strong leadership skills are valued in most industries.',
+    exampleVietnamese: 'Kỹ năng lãnh đạo mạnh được đánh giá cao trong hầu hết các ngành.',
+    level: 'intermediate',
+    category: 'Career'
+  },
+
+  // Communication & Skills
+  {
+    id: 17,
+    english: 'Communication',
+    vietnamese: 'Giao tiếp',
+    pronunciation: '/kəˌmjuːnɪˈkeɪʃn/',
+    example: 'Good communication skills are essential in business.',
+    exampleVietnamese: 'Kỹ năng giao tiếp tốt là rất cần thiết trong kinh doanh.',
+    level: 'intermediate',
+    category: 'Skills'
+  },
+  {
+    id: 18,
+    english: 'Teamwork',
+    vietnamese: 'Làm việc nhóm',
+    pronunciation: '/ˈtiːmwɜːk/',
+    example: 'Effective teamwork leads to better results.',
+    exampleVietnamese: 'Làm việc nhóm hiệu quả dẫn đến kết quả tốt hơn.',
+    level: 'beginner',
+    category: 'Skills'
+  },
+  {
+    id: 19,
+    english: 'Problem-solving',
+    vietnamese: 'Giải quyết vấn đề',
+    pronunciation: '/ˈprɒbləm ˌsɒlvɪŋ/',
+    example: 'Problem-solving skills are crucial in engineering.',
+    exampleVietnamese: 'Kỹ năng giải quyết vấn đề rất quan trọng trong kỹ thuật.',
+    level: 'intermediate',
+    category: 'Skills'
+  },
+  {
+    id: 20,
+    english: 'Creativity',
+    vietnamese: 'Sáng tạo',
+    pronunciation: '/ˌkriːeɪˈtɪvəti/',
+    example: 'Creativity is important in marketing and design.',
+    exampleVietnamese: 'Sáng tạo rất quan trọng trong marketing và thiết kế.',
+    level: 'intermediate',
+    category: 'Skills'
+  },
+
+  // Society & Culture
+  {
+    id: 21,
+    english: 'Society',
+    vietnamese: 'Xã hội',
+    pronunciation: '/səˈsaɪəti/',
+    example: 'Technology has a great impact on modern society.',
+    exampleVietnamese: 'Công nghệ có tác động lớn đến xã hội hiện đại.',
+    level: 'beginner',
+    category: 'Society'
+  },
+  {
+    id: 22,
+    english: 'Culture',
+    vietnamese: 'Văn hóa',
+    pronunciation: '/ˈkʌltʃə/',
+    example: 'Learning about different cultures broadens your perspective.',
+    exampleVietnamese: 'Học về các nền văn hóa khác nhau mở rộng tầm nhìn của bạn.',
+    level: 'beginner',
+    category: 'Society'
+  },
+  {
+    id: 23,
+    english: 'Diversity',
+    vietnamese: 'Đa dạng',
+    pronunciation: '/daɪˈvɜːsəti/',
+    example: 'Cultural diversity makes our society more interesting.',
+    exampleVietnamese: 'Đa dạng văn hóa làm cho xã hội chúng ta thú vị hơn.',
+    level: 'intermediate',
+    category: 'Society'
+  },
+  {
+    id: 24,
+    english: 'Community',
+    vietnamese: 'Cộng đồng',
+    pronunciation: '/kəˈmjuːnəti/',
+    example: 'The local community organized a charity event.',
+    exampleVietnamese: 'Cộng đồng địa phương tổ chức một sự kiện từ thiện.',
+    level: 'beginner',
+    category: 'Society'
+  },
+
+  // Health & Lifestyle
+  {
+    id: 25,
+    english: 'Health',
+    vietnamese: 'Sức khỏe',
+    pronunciation: '/helθ/',
+    example: 'Regular exercise is important for good health.',
+    exampleVietnamese: 'Tập thể dục thường xuyên rất quan trọng cho sức khỏe tốt.',
+    level: 'beginner',
+    category: 'Health'
+  },
+  {
+    id: 26,
+    english: 'Nutrition',
+    vietnamese: 'Dinh dưỡng',
+    pronunciation: '/njuˈtrɪʃn/',
+    example: 'Good nutrition is the foundation of a healthy lifestyle.',
+    exampleVietnamese: 'Dinh dưỡng tốt là nền tảng của lối sống lành mạnh.',
+    level: 'intermediate',
+    category: 'Health'
+  },
+  {
+    id: 27,
+    english: 'Fitness',
+    vietnamese: 'Thể lực, sự cân đối',
+    pronunciation: '/ˈfɪtnəs/',
+    example: 'Physical fitness helps prevent many diseases.',
+    exampleVietnamese: 'Thể lực tốt giúp phòng ngừa nhiều bệnh tật.',
+    level: 'beginner',
+    category: 'Health'
+  },
+  {
+    id: 28,
+    english: 'Wellness',
+    vietnamese: 'Sự khỏe mạnh, thịnh vượng',
+    pronunciation: '/ˈwelnəs/',
+    example: 'Mental wellness is just as important as physical health.',
+    exampleVietnamese: 'Sức khỏe tinh thần cũng quan trọng như sức khỏe thể chất.',
+    level: 'intermediate',
+    category: 'Health'
+  },
+
+  // Travel & Transportation
+  {
+    id: 29,
+    english: 'Transportation',
+    vietnamese: 'Giao thông vận tải',
+    pronunciation: '/ˌtrænspɔːˈteɪʃn/',
+    example: 'Public transportation is becoming more environmentally friendly.',
+    exampleVietnamese: 'Giao thông công cộng đang trở nên thân thiện với môi trường hơn.',
+    level: 'intermediate',
+    category: 'Travel'
+  },
+  {
+    id: 30,
+    english: 'Adventure',
+    vietnamese: 'Cuộc phiêu lưu',
+    pronunciation: '/ədˈventʃə/',
+    example: 'Traveling to new places is always an adventure.',
+    exampleVietnamese: 'Du lịch đến những nơi mới luôn là một cuộc phiêu lưu.',
+    level: 'beginner',
+    category: 'Travel'
+  },
+  {
+    id: 31,
+    english: 'Destination',
+    vietnamese: 'Điểm đến',
+    pronunciation: '/ˌdestɪˈneɪʃn/',
+    example: 'Japan is a popular destination for tourists.',
+    exampleVietnamese: 'Nhật Bản là điểm đến phổ biến cho khách du lịch.',
+    level: 'intermediate',
+    category: 'Travel'
+  },
+  {
+    id: 32,
+    english: 'Experience',
+    vietnamese: 'Trải nghiệm',
+    pronunciation: '/ɪkˈspɪəriəns/',
+    example: 'Studying abroad was an amazing experience.',
+    exampleVietnamese: 'Du học là một trải nghiệm tuyệt vời.',
+    level: 'beginner',
+    category: 'Travel'
+  },
+
+  // Additional Essential Words
+  {
+    id: 33,
+    english: 'Challenge',
+    vietnamese: 'Thử thách',
+    pronunciation: '/ˈtʃælɪndʒ/',
+    example: 'Learning English can be a challenge, but it\'s very rewarding.',
+    exampleVietnamese: 'Học tiếng Anh có thể là một thử thách, nhưng rất bổ ích.',
+    level: 'beginner',
+    category: 'Learning'
+  },
+  {
+    id: 34,
+    english: 'Influence',
+    vietnamese: 'Ảnh hưởng',
+    pronunciation: '/ˈɪnfluəns/',
+    example: 'Social media has a strong influence on young people.',
+    exampleVietnamese: 'Mạng xã hội có ảnh hưởng mạnh đến giới trẻ.',
+    level: 'intermediate',
+    category: 'Society'
+  },
+  {
+    id: 35,
     english: 'Responsibility',
     vietnamese: 'Trách nhiệm',
     pronunciation: '/rɪˌspɒnsəˈbɪləti/',
@@ -124,7 +381,7 @@ const vocabularyData: VocabWord[] = [
     category: 'Society'
   },
   {
-    id: 12,
+    id: 36,
     english: 'Efficient',
     vietnamese: 'Hiệu quả',
     pronunciation: '/ɪˈfɪʃnt/',
