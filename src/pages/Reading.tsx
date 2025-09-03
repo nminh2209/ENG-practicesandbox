@@ -153,7 +153,7 @@ export function Reading() {
 
   // Timer effect
   useEffect(() => {
-    let interval: NodeJS.Timeout
+    let interval: ReturnType<typeof setInterval>
     if (isReading) {
       interval = setInterval(() => {
         setTimeSpent(time => time + 1)
